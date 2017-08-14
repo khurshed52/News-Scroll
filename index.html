@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Totem Ticker Example</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.totemticker.js"></script>
+<script type="text/javascript">
+		$(function(){
+			$('#vertical-ticker').totemticker({
+				row_height	:	'100px',
+				next		:	'#ticker-next',
+				previous	:	'#ticker-previous',
+				stop		:	'#stop',
+				start		:	'#start',
+				mousestop	:	true
+			});
+		});
+	</script>
+</head>
+<body>
+<div id="wrapper">
+<h1 class="logo">Totem Ticker</h1>
+<ul id="vertical-ticker">
+<li>One Time</li>
+<li>Baby</li>
+<li>One Less Lonely Girl</li>
+<li>Somebody to Love</li>
+<li>Eenie Meenie</li>
+<li>Never Say Never</li>
+<li>U Smile</li>
+</ul>
+<p><a href="#" id="ticker-previous">Previous</a> / <a href="#" id="ticker-next">Next</a> / <a id="stop" href="#">Stop</a> / <a id="start" href="#">Start</a></p>
+
+</div>
+
+</body>
+</html>
