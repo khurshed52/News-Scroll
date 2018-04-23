@@ -95,7 +95,7 @@ color: rgba(255,255,255,.5);
 */
 
 #vertical-ticker {
-height: 400px;
+height: 300px;
 overflow: hidden;
 margin: 0;
 padding: 0;
@@ -103,9 +103,9 @@ padding: 0;
 list-style: none;
 }
 #vertical-ticker li {
-padding: 35px 20px;
+padding: 11px 20px;
 display: block;
-background: #efefef;
+background: #fff;
 color: #333;
 border-bottom: 1px solid #ddd;
 text-align: center;
@@ -113,3 +113,4 @@ font-size: 25px;
 font-weight: bold;
 font-family: Helvetica Neue, times, serif;
 }
+
